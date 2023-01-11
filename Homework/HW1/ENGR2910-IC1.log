@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.18)  10 JAN 2023 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.18)  10 JAN 2023 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ENGR2910-HW1.tex
-(./ENGR2910-HW1.tex
+**ENGR2910-IC1.tex
+(./ENGR2910-IC1.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-07-12>
 (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -346,8 +346,8 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box104
 )
-(./ENGR2910-HW1.aux)
-\openout1 = `ENGR2910-HW1.aux'.
+(./ENGR2910-IC1.aux)
+\openout1 = `ENGR2910-IC1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
 LaTeX Font Info:    ... okay on input line 63.
@@ -386,48 +386,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
-
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
-
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package epstopdf Info: Source file: <Fig1-12.eps>
-(epstopdf)                    date: 2022-11-22 16:37:28
-(epstopdf)                    size: 2037673 bytes
-(epstopdf)             Output file: <Fig1-12-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-22 16:37:28
-(epstopdf)                    size: 108573 bytes
-(epstopdf)             Command: <repstopdf --outfile=Fig1-12-eps-converted-to.p
-df Fig1-12.eps>
-(epstopdf)             \includegraphics on input line 94.
-Package epstopdf Info: Output file is already uptodate.
-<Fig1-12-eps-converted-to.pdf, id=1, 416.55624pt x 186.6975pt>
-File: Fig1-12-eps-converted-to.pdf Graphic file (type pdf)
-<use Fig1-12-eps-converted-to.pdf>
-Package pdftex.def Info: Fig1-12-eps-converted-to.pdf  used on input line 94.
-(pdftex.def)             Requested size: 234.73523pt x 105.20795pt.
-Package epstopdf Info: Source file: <Fig1-13.eps>
-(epstopdf)                    date: 2022-11-22 16:37:28
-(epstopdf)                    size: 1720578 bytes
-(epstopdf)             Output file: <Fig1-13-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-11-22 16:37:28
-(epstopdf)                    size: 18867 bytes
-(epstopdf)             Command: <repstopdf --outfile=Fig1-13-eps-converted-to.p
-df Fig1-13.eps>
-(epstopdf)             \includegraphics on input line 121.
-Package epstopdf Info: Output file is already uptodate.
-<Fig1-13-eps-converted-to.pdf, id=3, 430.60875pt x 152.57pt>
-File: Fig1-13-eps-converted-to.pdf Graphic file (type pdf)
-<use Fig1-13-eps-converted-to.pdf>
-Package pdftex.def Info: Fig1-13-eps-converted-to.pdf  used on input line 121.
-(pdftex.def)             Requested size: 140.84256pt x 49.9036pt.
 Package epstopdf Info: Source file: <Fig1-5.eps>
 (epstopdf)                    date: 2022-11-22 16:37:28
 (epstopdf)                    size: 1633750 bytes
@@ -436,22 +394,45 @@ Package epstopdf Info: Source file: <Fig1-5.eps>
 (epstopdf)                    size: 25598 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig1-5-eps-converted-to.pd
 f Fig1-5.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
-<Fig1-5-eps-converted-to.pdf, id=5, 430.60875pt x 144.54pt>
+<Fig1-5-eps-converted-to.pdf, id=1, 430.60875pt x 144.54pt>
 File: Fig1-5-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig1-5-eps-converted-to.pdf>
-Package pdftex.def Info: Fig1-5-eps-converted-to.pdf  used on input line 154.
+Package pdftex.def Info: Fig1-5-eps-converted-to.pdf  used on input line 89.
 (pdftex.def)             Requested size: 117.36761pt x 39.39462pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
 
-<cnm.png, id=7, 285.065pt x 131.49126pt>
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package epstopdf Info: Source file: <Fig1-5.eps>
+(epstopdf)                    date: 2022-11-22 16:37:28
+(epstopdf)                    size: 1633750 bytes
+(epstopdf)             Output file: <Fig1-5-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-11-22 16:37:28
+(epstopdf)                    size: 25598 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig1-5-eps-converted-to.pd
+f Fig1-5.eps>
+(epstopdf)             \includegraphics on input line 117.
+Package epstopdf Info: Output file is already uptodate.
+File: Fig1-5-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig1-5-eps-converted-to.pdf>
+Package pdftex.def Info: Fig1-5-eps-converted-to.pdf  used on input line 117.
+(pdftex.def)             Requested size: 117.36761pt x 39.39462pt.
+<cnm.png, id=4, 285.065pt x 131.49126pt>
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 163.
+Package pdftex.def Info: cnm.png  used on input line 142.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
+
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 37.68423pt, for example:
@@ -459,44 +440,27 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Fig1-12-eps-c
-onverted-to.pdf> <./Fig1-13-eps-converted-to.pdf> <./cnm.png>]
-<HW_1_5.png, id=27, 621.88638pt x 470.05865pt>
-File: HW_1_5.png Graphic file (type png)
-<use HW_1_5.png>
-Package pdftex.def Info: HW_1_5.png  used on input line 217.
-(pdftex.def)             Requested size: 164.31752pt x 124.19914pt.
-File: cnm.png Graphic file (type png)
-<use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 235.
-(pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 37.68423pt, for example:
-(fancyhdr)                \setlength{\footskip}{37.68423pt}.
-
-[2 <./Fig1-5-eps-converted-to.pdf> <./HW_1_5.png>] (./ENGR2910-HW1.aux) ) 
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Fig1-5-eps-co
+nverted-to.pdf> <./cnm.png>] (./ENGR2910-IC1.aux) ) 
 Here is how much of TeX's memory you used:
- 5414 strings out of 478542
- 76815 string characters out of 5854396
- 391749 words of memory out of 5000000
- 23265 multiletter control sequences out of 15000+600000
+ 5393 strings out of 478542
+ 76314 string characters out of 5854396
+ 388767 words of memory out of 5000000
+ 23247 multiletter control sequences out of 15000+600000
  411449 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,66p,231b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/202
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb>
-Output written on ENGR2910-HW1.pdf (2 pages, 261119 bytes).
+ 57i,14n,66p,231b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on ENGR2910-IC1.pdf (1 page, 112487 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
