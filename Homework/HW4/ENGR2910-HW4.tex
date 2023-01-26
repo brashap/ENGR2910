@@ -14,54 +14,9 @@
 \usepackage{fancyhdr}
 \usepackage[export]{adjustbox}
 \usepackage{xcolor}
+\usepackage[shortlabels]{enumitem}
 
 \pagestyle{empty}
-
-\newcommand{\Avec}{\mathbf A}
-\newcommand{\Bvec}{\mathbf B}
-\newcommand{\Dvec}{\mathbf D}
-\newcommand{\Evec}{\mathbf E}
-\newcommand{\Fvec}{\mathbf F}
-\newcommand{\Jvec}{\mathbf J}
-\newcommand{\Lvec}{\mathbf L}
-\newcommand{\Mvec}{\mathbf M}
-\newcommand{\Pvec}{\mathbf P}
-\newcommand{\Svec}{\mathbf S}
-\newcommand{\avec}{\mathbf a}
-\newcommand{\bvec}{\mathbf b}
-\newcommand{\dvec}{\mathbf d}
-\newcommand{\evec}{\mathbf e}
-\newcommand{\fvec}{\mathbf f}
-\newcommand{\jvec}{\mathbf j}
-\newcommand{\kvec}{\mathbf k}
-\newcommand{\nvec}{\mathbf n}
-\newcommand{\pvec}{\mathbf p}
-\newcommand{\rvec}{\mathbf r}
-\newcommand{\svec}{\mathbf s}
-\newcommand{\vvec}{\mathbf v}
-\newcommand{\xvec}{\mathbf x}
-\newcommand{\yvec}{\mathbf y}
-\newcommand{\zvec}{\mathbf z}
-\newcommand{\nablav}{\boldsymbol{\nabla}}
-\newcommand{\nablavector}{\vec \nabla}
-\newcommand{\alphavec}{\boldsymbol{\alpha}}
-\newcommand{\phivec}{\boldsymbol{\phi}}
-\newcommand{\thetavec}{\boldsymbol{\theta}}
-\newcommand{\omegavec}{\boldsymbol{\omega}}
-\newcommand{\tauvec}{\boldsymbol{\tau}}
-\newcommand{\ezero}{\varepsilon_{0}}
-\newcommand{\mzero}{\mu_{0}}
-\newcommand{\mubold}{\boldsymbol{\mu}}
-\newcommand{\uniti}{\hat{\boldsymbol{\imath}}}
-\newcommand{\unitj}{\hat{\boldsymbol{\jmath}}}
-\newcommand{\unitk}{\hat{\boldsymbol{\mathit{k}}}}
-\newcommand{\unitn}{\hat{\mathbf n}}
-\newcommand{\unitr}{\hat{\mathbf r}}
-\newcommand{\unitphi}{\hat{\boldsymbol{\phi}}}
-\newcommand{\unittheta}{\hat{\boldsymbol{\theta}}}
-
-\newcommand{\bit}{\begin{itemize}}
-\newcommand{\eit}{\end{itemize}}
 
 \setlength{\headsep}{0.5cm}
 \setlength{\oddsidemargin}{-0.5cm}
@@ -69,112 +24,81 @@
 \setlength{\textheight}{24cm}
 \voffset = -2cm
 
+
 \pagestyle{fancy}
 \fancyhf{}
 \rfoot{\includegraphics[width=1.0in]{cnm.png}}
-\lfoot{ENGR 2910 Homework 5}
+\lfoot{Homework 4}
+\setlength\parindent{0pt}
 \begin{document}
 
-%{\bf \underline{STUDENT NAME}:} 
-%\vspace{1cm}
-
 \begin{center}
-%\date{10/02/18-10/09/18}
 \hfil
 {\large\bf {ENGR 2910-101: Circuit Analysis}}
-\hfill Instructor: Leo Silbert \\
-Homework 5: 09/28/21 \hfill Due: 10/05/21\\
+\hfill Instructor: Brian Rashap\\
+Homework 4: 02/01/23 \hfill Due: 02/08/23\\
 \hrulefill\\
 \end{center}
 
-%{\em Show all your working to ensure you obtain full points. Partial
-%  credit will be given for correct algebraic steps if you fail to
-%  obtain the correct final answer.}\\
+{\bf Question 1} [10] % P4-6
 
-%\newpage
+Use the node-voltage method to find: $v_{o}$ and the power developed in the voltage source.
 
-
-\noindent
-{\bf Question 1} [10] %P3-3
-
-For each of the circuits (a)-(d), find the equivalent resistance and the power delivered by the source. 
 \begin{figure}[h!]
-  \centering 
- \vspace{-0.1in}
- \includegraphics[clip,width=0.45\textwidth]{Fig3-3a.png}
- \includegraphics[clip,width=0.45\textwidth]{Fig3-3b.png}\\
- \includegraphics[clip,width=0.45\textwidth]{Fig3-3c.png}
- \includegraphics[clip,width=0.45\textwidth]{Fig3-3d.png}
-%\vspace{-0.1in}
+\begin{center}
+ \includegraphics[clip,width=0.6\textwidth]{Fig4-6-v2.png}
+\end{center}
 \end{figure}
+
 
 \vspace{0.1in}
-\noindent
-{\bf Question 2} [10] %P3-5(d)
 
-Find the equivalent resistance $R_{ab}$ for the following circuit.
+{\bf Question 2} [10] %P4-11
+
+Use the node-voltage method to find $v_{1}$ and $v_{2}$ in the circuit below.
 \begin{figure}[h!]
-     \centering
-\vspace{-0.1in}
-     \includegraphics[clip,width=0.6\textwidth]{Fig3-6d.png}
-\vspace{-0.15in}
-\end{figure}
- \newpage
-\noindent
-{\bf Question 3} [10] %openstax
-
-A battery of 45 V delivers 112 W of power to the circuit that contains 5 identical resistors (R$_{i}$=R). What is the value of R?
-
-\begin{figure}[!h]
-  \centering 
-  \includegraphics[clip,width=0.4\textwidth]{Fig-Q3.png}
+\begin{center}
+ \includegraphics[clip,width=0.6\textwidth]{Fig4-11.png}
+\end{center}
 \end{figure}
 
-\vspace{0.1in}
-\noindent
-{\bf Question 4} [10] %P3-13
+{\bf Question 3} [10] %P4-15
 
-For the voltage-divider circuit shown: 
+Use the node-voltage method to find the voltages shown, $v_{1}$, $v_{2}$, and $v_{3}$.
+
 \begin{figure}[h!]
-  \centering 
-  \includegraphics[clip,width=0.4\textwidth]{Fig3-13.png}
+\begin{center}
+ \includegraphics[clip,width=0.6\textwidth]{Fig4-15.png}
+\end{center}
 \end{figure}
-\bit
 
-\item[(a)]
+\newpage
+{\bf Question 4} [10] %P4-28
 
-Calculate the no-load voltage $v_{o}$.
+Use the node-voltage method to find $v_{o}$ in the circuit shown below.
 
-\item[(b)]
-
-Calculate the power dissipated in $R_{1}$ and $R_{2}$.
-
-\item[(c)]
-
-If only 1 W resistors are available and that the no-load voltage is to be the same as in part (a), specify the smallest values of $R_{1}$ and $R_{2}$.
-
-\eit
-
-\vspace{0.1in}
-\noindent
-{\bf Question 5} [10] %P3-1/2
-
-For the circuit circuit shown:
 \begin{figure}[h!]
-\centering 
-\includegraphics[clip,width=0.6\textwidth]{Fig3-1d.png}
+\begin{center}
+ \includegraphics[clip,width=0.6\textwidth]{Fig4-28.png}
+\end{center}
 \end{figure}
+
+{\bf Question 5} [10] %P4-29
+
+Use the node-voltage method to find: [Hints: identify the supernode and also use the node labeled {\color{red} a}.]
+
+\begin{figure}[h!]
+\begin{center}
+ \includegraphics[clip,width=0.6\textwidth]{Fig4-29.png}
+\end{center}
+\end{figure}
+
+\begin{enumerate}[(a)]
+\item the voltage across the 20 $\Omega$ resistor, $v_{1}$, 
+\item the voltage across the 40 $\Omega$ resistor, $v_{2}$, 
+\item the voltage across the 80 $\Omega$ resistor, $v_{3}$, 
+\item the controlling voltage, $v_{\Delta}$, 
+\item the controlling current, $i_{\phi}$. 
+\end{enumerate}
  
-\bit
-
-\item[(a)]
-
-Use current division to find the current in the $50 \Omega$ resistor from left to right.
-
-\item[(b)]
-
-Use the result from part (a) and current division to find the current in the $70 \Omega$ resistor from top to bottom.
-
-\eit
-
 \end{document}
