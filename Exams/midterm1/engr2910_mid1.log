@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.21)  10 FEB 2023 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.21)  10 FEB 2023 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,7 +437,7 @@ Package pdftex.def Info: mid1_1.png  used on input line 49.
 File: mid1_2.jpg Graphic file (type jpg)
 <use mid1_2.jpg>
 Package pdftex.def Info: mid1_2.jpg  used on input line 57.
-(pdftex.def)             Requested size: 328.62788pt x 319.7309pt.
+(pdftex.def)             Requested size: 230.04309pt x 223.80495pt.
 <cnm.png, id=5, 285.065pt x 131.49126pt>
 File: cnm.png Graphic file (type png)
 <use cnm.png>
@@ -453,16 +453,17 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./mid1_1.png> <
 ./mid1_2.jpg> <./cnm.png>]
-<mid1_3.png, id=17, 649.16211pt x 240.9pt>
-File: mid1_3.png Graphic file (type png)
-<use mid1_3.png>
-Package pdftex.def Info: mid1_3.png  used on input line 68.
-(pdftex.def)             Requested size: 281.68513pt x 104.52966pt.
+<mid1_4.jpg, id=17, 700.11563pt x 469.755pt>
+File: mid1_4.jpg Graphic file (type jpg)
+<use mid1_4.jpg>
+Package pdftex.def Info: mid1_4.jpg  used on input line 68.
+(pdftex.def)             Requested size: 281.68513pt x 189.00252pt.
+<mid1_3.png, id=19, 649.16211pt x 240.9pt>
 File: mid1_3.png Graphic file (type png)
 <use mid1_3.png>
 Package pdftex.def Info: mid1_3.png  used on input line 77.
 (pdftex.def)             Requested size: 281.68513pt x 104.52966pt.
-<mid1_5.jpg, id=20, 527.72156pt x 328.97906pt>
+<mid1_5.jpg, id=21, 527.72156pt x 328.97906pt>
 File: mid1_5.jpg Graphic file (type jpg)
 <use mid1_5.jpg>
 Package pdftex.def Info: mid1_5.jpg  used on input line 84.
@@ -477,22 +478,22 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[2 <./mid1_3.png> <./mid1_5.jpg>] (./engr2910_mid1.aux) ) 
+[2 <./mid1_4.jpg> <./mid1_3.png> <./mid1_5.jpg>] (./engr2910_mid1.aux) ) 
 Here is how much of TeX's memory you used:
- 6550 strings out of 478286
- 104294 string characters out of 5850726
+ 6557 strings out of 478286
+ 104395 string characters out of 5850726
  400462 words of memory out of 5000000
- 24651 multiletter control sequences out of 15000+600000
+ 24657 multiletter control sequences out of 15000+600000
  470469 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,67p,232b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on engr2910_mid1.pdf (2 pages, 162197 bytes).
+<c:/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on engr2910_mid1.pdf (2 pages, 214745 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
