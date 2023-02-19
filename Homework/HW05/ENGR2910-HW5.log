@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  19 FEB 2023 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  19 FEB 2023 11:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**engr2910_mid1.tex
-(./engr2910_mid1.tex
+**ENGR2910-HW5.tex
+(./ENGR2910-HW5.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -350,8 +350,8 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box104
 )
-(./engr2910_mid1.aux)
-\openout1 = `engr2910_mid1.aux'.
+(./ENGR2910-HW5.aux)
+\openout1 = `ENGR2910-HW5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -423,40 +423,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
-
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<mid1_1.png, id=1, 649.16211pt x 338.5279pt>
-File: mid1_1.png Graphic file (type png)
-<use mid1_1.png>
-Package pdftex.def Info: mid1_1.png  used on input line 52.
-(pdftex.def)             Requested size: 230.04309pt x 119.96387pt.
-<mid1_2.jpg, id=3, 516.42938pt x 473.51906pt>
-File: mid1_2.jpg Graphic file (type jpg)
-<use mid1_2.jpg>
-Package pdftex.def Info: mid1_2.jpg  used on input line 62.
-(pdftex.def)             Requested size: 230.04309pt x 210.92845pt.
-<cnm.png, id=5, 285.065pt x 131.49126pt>
+<fig4_37.png, id=1, 532.40633pt x 467.93526pt>
+File: fig4_37.png Graphic file (type png)
+<use fig4_37.png>
+Package pdftex.def Info: fig4_37.png  used on input line 49.
+(pdftex.def)             Requested size: 212.95876pt x 187.17078pt.
+<fig4_40.png, id=2, 649.16211pt x 464.68343pt>
+File: fig4_40.png Graphic file (type png)
+<use fig4_40.png>
+Package pdftex.def Info: fig4_40.png  used on input line 67.
+(pdftex.def)             Requested size: 259.66023pt x 185.87007pt.
+<cnm.png, id=3, 285.065pt x 131.49126pt>
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 67.
+Package pdftex.def Info: cnm.png  used on input line 73.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 
@@ -466,21 +446,21 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./mid1_
-1.png> <./mid1_2.jpg> <./cnm.png>]
-<mid1_4.jpg, id=19, 700.11563pt x 469.755pt>
-File: mid1_4.jpg Graphic file (type jpg)
-<use mid1_4.jpg>
-Package pdftex.def Info: mid1_4.jpg  used on input line 75.
-(pdftex.def)             Requested size: 281.68513pt x 189.00252pt.
-<mid1_3.png, id=21, 649.16211pt x 240.9pt>
-File: mid1_3.png Graphic file (type png)
-<use mid1_3.png>
-Package pdftex.def Info: mid1_3.png  used on input line 92.
-(pdftex.def)             Requested size: 281.68513pt x 104.52966pt.
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig4_
+37.png> <./fig4_40.png> <./cnm.png>]
+<fig4_45.png, id=13, 643.51721pt x 468.81235pt>
+File: fig4_45.png Graphic file (type png)
+<use fig4_45.png>
+Package pdftex.def Info: fig4_45.png  used on input line 81.
+(pdftex.def)             Requested size: 257.40231pt x 187.5216pt.
+<fig4_67.png, id=14, 637.96965pt x 471.00104pt>
+File: fig4_67.png Graphic file (type png)
+<use fig4_67.png>
+Package pdftex.def Info: fig4_67.png  used on input line 97.
+(pdftex.def)             Requested size: 255.18333pt x 188.39706pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 104.
+Package pdftex.def Info: cnm.png  used on input line 101.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 
@@ -488,15 +468,15 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[2 <./mid1_4.jpg> <./mid1_3.png>]
-<mid1_5.jpg, id=29, 533.74406pt x 314.67563pt>
-File: mid1_5.jpg Graphic file (type jpg)
-<use mid1_5.jpg>
-Package pdftex.def Info: mid1_5.jpg  used on input line 112.
-(pdftex.def)             Requested size: 281.68513pt x 166.07625pt.
+[2 <./fig4_45.png> <./fig4_67.png>]
+<fig4_75.png, id=18, 649.16211pt x 439.32553pt>
+File: fig4_75.png Graphic file (type png)
+<use fig4_75.png>
+Package pdftex.def Info: fig4_75.png  used on input line 109.
+(pdftex.def)             Requested size: 259.66023pt x 175.7271pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 132.
+Package pdftex.def Info: cnm.png  used on input line 115.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 
@@ -504,25 +484,22 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[3 <./mid1_5.jpg>] (./engr2910_mid1.aux) ) 
+[3 <./fig4_75.png>] (./ENGR2910-HW5.aux) ) 
 Here is how much of TeX's memory you used:
- 6637 strings out of 478268
- 106562 string characters out of 5846346
- 404167 words of memory out of 5000000
- 24721 multiletter control sequences out of 15000+600000
- 477278 words of font info for 57 fonts, out of 8000000 for 9000
+ 6574 strings out of 478268
+ 105737 string characters out of 5846346
+ 403156 words of memory out of 5000000
+ 24686 multiletter control sequences out of 15000+600000
+ 470469 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,14n,67p,232b,384s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,14n,67p,231b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb>
-Output written on engr2910_mid1.pdf (3 pages, 250829 bytes).
+nts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on ENGR2910-HW5.pdf (3 pages, 191786 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
