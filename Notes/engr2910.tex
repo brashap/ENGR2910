@@ -90,6 +90,11 @@ Five classifications of electrical systems:
 
 \subsection{Circuit Theory}
 Three assumptions:
+\begin{itemize}
+\item Electrical effects happen instantaneously throughout a system; tis assumption is called the lumped-parameter system)
+\item The net charge on every component in the system is always zero.
+\item There is not magnetic coupling between the components of a system. However, we will allow magnetic coupling within a component.
+\end{itemize}
 
 \section{International System of Units}
 
@@ -242,6 +247,12 @@ w = \int_{t_0}^t p dt = \int_{t_0}^t  v i dt
 
 When we speak of circuit elements, it is important to differentiate between the physical device itself and the mathematical model which we will use to analyze its behavior in a circuit. We will use the expression circuit element to refer to the mathematical model. All the simple circuit elements that we will consider can be classified according to the relationship between current through the element to the voltage across the element.
 
+\subsection{Ideal Sources}
+\begin{itemize}
+\item Ideal voltage source is a circuit element that maintains a prescribed voltage across its terminals regardless of the current flowing in those terminals. 
+\item Ideal current source is a circuit element that maintains a prescribed current through its terminals regardless of the voltage across those terminals.
+\end{itemize}
+
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.60]{fig/fig02_01.png}
@@ -249,6 +260,10 @@ When we speak of circuit elements, it is important to differentiate between the 
 \label{fig:f02_01}
 \end{center}
 \end{figure}
+
+\subsection{Independent and Dependent Sources}
+
+An independent source establishes a voltage or current in a circuit without relying on voltage or currents elsewhere in the circuit. 
 
 A dependent source establishes a voltage or current whose value depends on the value of a voltage or current elsewhere in the circuit. You cannot specify the value of a dependent source unless you know the value of the voltage or current on which it depends.
 
@@ -292,8 +307,54 @@ The relationship between Voltage and Current was empirically determined by Goerg
 
 Ohm's Law
 \begin{equation}
-V = I \cdot R
+v = i \cdot R
 \end{equation}
+
+\subsection{Power}
+
+\begin{equation}
+p = vi
+\end{equation}
+
+Therefore:
+
+\begin{equation}
+p = (iR) i = i^2 R
+\end{equation}
+
+or
+
+\begin{equation}
+p = v \frac{v}{R} = \frac{v^2}{R}
+\end{equation}
+
+Why is this important?
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=1]{fig/transistorVoltage.png}
+\caption{Why Care About Voltage}
+\label{fig:tv}
+\end{center}
+\end{figure}
+
+\section{Constructing a circuit model}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig02_12.png}
+\caption{Flashlight}
+\label{fig:fig02_12}
+\end{center}
+\end{figure}
+
+\begin{itemize}
+\item Dry Cell Batteries
+\item Lamp ($R_l$)
+\item Switch
+\item Case ($R_c$)
+\item Connector Spring ($R_s$)
+\end{itemize}
 
 
 \section{Kirchhoff's Laws}
@@ -449,6 +510,11 @@ R_{eq} = (\sum_{i=1}{N} \frac{1}{R_i})^{-1}
 \end{center}
 \end{figure}
 
+\begin{tcolorbox}
+Do Example 3.1 and Example 3.2
+\end{tcolorbox}
+
+
 
 \section{Divider Circuits}
 
@@ -460,6 +526,11 @@ R_{eq} = (\sum_{i=1}{N} \frac{1}{R_i})^{-1}
 \end{center}
 \end{figure}
 
+\begin{tcolorbox}
+Do Example 3.3
+\end{tcolorbox}
+
+
 
 \begin{figure}[H]
 \begin{center}
@@ -468,6 +539,11 @@ R_{eq} = (\sum_{i=1}{N} \frac{1}{R_i})^{-1}
 \label{fig:fig03_19}
 \end{center}
 \end{figure}
+
+\begin{tcolorbox}
+Do Example 3.6
+\end{tcolorbox}
+
 
 \subsection{With a Load}
 
@@ -607,6 +683,11 @@ Since $i_1 = i_3$ and $i_2 = i_x$, solving for $R_x$:
 R_x = \frac{R_2}{R_1}R_3
 \end{equation}
 
+\begin{tcolorbox}
+Do Example 3.10
+\end{tcolorbox}
+
+
 \section{Delta-to-Wye (Pi-to-Tee) Equivalent Circuits}
 
 The $\Delta$ and $Y$structures are present in a variety of useful circuits. Hence, the $\Delta-Y$  transformation is helpful in circuit analysis. 
@@ -691,7 +772,225 @@ R_b = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_2}
 R_c = \frac{R_1 R_2 + R_2 R_3 + R_3 R_1}{R_3}
 \end{equation}
 
+
+\begin{tcolorbox}
+Do Example 3.11
+\end{tcolorbox}
+
+
 \chapter{Techniques of Circuit Analysis}
+
+\section{Terminology}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_03.png}
+\caption{Terminology Diagram}
+\label{fig:fig04_03}
+\end{center}
+\end{figure}
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|}
+\hline
+Name                                                        & Definition                                                                                                                      & Example                   \\ \hline
+node                                                        & A point where two or more elements join                                                                                         & a                         \\ \hline
+\begin{tabular}[c]{@{}l@{}}essential \\ node\end{tabular}   & A node where three or more elements join                                                                                        & b                         \\ \hline
+path                                                        & \begin{tabular}[c]{@{}l@{}}A trace of adjoining basic circuit elements \\ with no elements included more than once\end{tabular} & $v_1 - R_1 - R_2 -R_3$    \\ \hline
+branch                                                      & A path that connects two nodes                                                                                                  & $R_1$                     \\ \hline
+\begin{tabular}[c]{@{}l@{}}essential \\ branch\end{tabular} & \begin{tabular}[c]{@{}l@{}}A path that connects two essential nodes\\ without passing through an essential node\end{tabular}    & $v_1 - R_1$               \\ \hline
+loop                                                        & \begin{tabular}[c]{@{}l@{}}A path whose last node is the same as \\ the starting node\end{tabular}                              & $v_1-R_1-R_5-R_6-R_4-v_2$ \\ \hline
+mesh                                                        & A loop that does not enclose any other loops                                                                                    & $v_1-R_1-R_3-R_2$         \\ \hline
+\begin{tabular}[c]{@{}l@{}}planar \\ circuit\end{tabular}   & \begin{tabular}[c]{@{}l@{}}A circuit that can be drawn on a plane \\ with no crossing branches\end{tabular}                     & see figures               \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_01.png}
+\caption{Planar Circuit}
+\label{fig:fig04_01}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_02.png}
+\caption{Non Planar Circuit}
+\label{fig:fig04_02}
+\end{center}
+\end{figure}
+
+\begin{tcolorbox}
+Do Example 4.1
+\end{tcolorbox}
+
+
+\subsection{Simultaneous Equations}
+
+Recall that you need $x$ independent equations to solve a circuit with $x$ unknown currents.
+
+Method:
+\begin{itemize}
+\item Count the number of essential nodes, $n_e$
+\item Count the number of essential branches, $b_e$, where the current is \underline{unknown}.
+\item Write $n_e - 1$ equations by applying KCL to any set of $n_e - 1$ nodes.
+\item Write $b_e - (n_e - 1)$ equations by applying KVL around a set of $b_e - (n_e - 1)$ loops or meshes. 
+\end{itemize}
+
+Note - the voltage for each element in every loop or mesh must be known or must be described in terms of current using Ohm's law.
+
+\begin{tcolorbox}
+Do Example 4.2
+\end{tcolorbox}
+
+\section{Node-Voltage Method}
+
+\begin{enumerate}
+\item Identify the essential nodes
+\item Pick and label a reference node, then label the node voltages at the remaining essential nodes. 
+\item Write a KCL equation for every non-reference essential node
+\item Solve the equations to find the node-voltage values
+\item Sove the circuit using the node voltages from Step 4 to find the component currents, voltages, and power values.  
+\end{enumerate}
+
+\begin{tcolorbox}
+Do Example 4.3
+\end{tcolorbox}
+
+
+\begin{tcolorbox}
+Do Assessment Problem 4.1
+
+
+Left Node:
+\begin{equation}
+15 = i_{60} + i_{15} + i_1
+\end{equation}
+
+\begin{equation}
+15 = \frac{v_1}{60} + \frac{v_1}{15} + \frac{v_1 - v_2}{5}
+\end{equation}
+
+\begin{equation}
+\frac{17}{60} v_1 - \frac{12}{60} v_2 = 15
+\end{equation}
+
+Right Node:
+\begin{equation}
+i_1 = i_2 + 5
+\end{equation}
+
+\begin{equation}
+ \frac{v_1 - v_2}{5} = \frac{v_2}{2} + 5
+\end{equation}
+
+\begin{equation}
+\frac{1}{5} v_1 - \frac{7}{10} v_2 = 5
+\end{equation}
+
+Combining:
+
+\begin{equation}
+A = 
+\begin{bmatrix}
+0.2833 & -0.2000 & | & 15 \\
+0.2000 & -0.7000 & | &  5 
+\end{bmatrix}
+\end{equation}
+
+Using in Octave rref(A):
+
+\begin{equation}
+rref(A) = 
+\begin{bmatrix}
+1 & 0 & | & 60 \\
+0 & 1 & | & 10 
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+v_1 = 60 V, 
+v_2 = 10 V, 
+i_i = 5 A
+\end{equation}
+
+
+
+\end{tcolorbox}
+
+\section{Node-Voltage Method and Dependent Sources}
+
+If the circuit contains dependent sources, the KCL equations must be supplemented with the constraint equations imposed by the dependent sources. The Step 3 of the Node-Voltage method is modified as seen in the example below.
+
+\begin{tcolorbox}
+Do Example 4.4
+\end{tcolorbox}
+
+\begin{tcolorbox}
+Do Assessment Problem 4.3
+\end{tcolorbox}
+
+\section{Node-Voltage Method - Special Cases}
+
+\subsection{Known Voltages}
+\begin{tcolorbox}
+Do Example with Figure 4.12
+\end{tcolorbox}
+
+\subsection{Supernodes}
+When a voltage source is between two essentail nodes, we can combine those nodes and the source to form a supernode.
+
+\begin{tcolorbox}
+Do Example with Figure 4.15
+\end{tcolorbox}
+
+\begin{tcolorbox}
+Do Example 4.5 - Node-Voltage Analysis of an Amplifier Circuit
+\end{tcolorbox}
+
+\section{Mesh-Current Method}
+\begin{tcolorbox}
+\begin{center}
+Caution: this only works for Planar Circuits
+\end{center}
+\end{tcolorbox}
+
+
+The Mesh-Current Method
+\begin{enumerate}
+\item Identify the meshes with curved directed arrows that follow the perimeter of each mesh
+\item Label th emesh currents for each mesh
+\item Write a KVL equation for each mesh
+\item Solve the equations to find the mesh current values
+\item Sove the circuit using the mesh currents from Step 4 to find the component currents, voltages, and power values.  
+\end{enumerate}
+
+\begin{tcolorbox}
+Do Example 4.6
+\end{tcolorbox}
+
+\begin{tcolorbox}
+Do Assessment Problem 4.7
+\end{tcolorbox}
+
+\section{The Mesh-Current Method and Dependent Sources}
+
+\begin{tcolorbox}
+Do Example 4.7
+\end{tcolorbox}
+
+
+\section{The Mesh-Current Method: Special Cases
+
+\subsection{Known Current}
+\begin{tcolorbox}
+Do Example 4.8
+\end{tcolorbox}
+
+\subsection{Supermesh}
+
+
 
 \appendix
 

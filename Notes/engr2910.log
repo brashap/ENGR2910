@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  28 AUG 2023 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  21 SEP 2023 08:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,283 +1252,348 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<fig/fig01_01.png, id=130, 338.26375pt x 260.975pt>
+<fig/fig01_01.png, id=150, 338.26375pt x 260.975pt>
 File: fig/fig01_01.png Graphic file (type png)
 <use fig/fig01_01.png>
 Package pdftex.def Info: fig/fig01_01.png  used on input line 76.
 (pdftex.def)             Requested size: 135.30309pt x 104.38815pt.
-<fig/tab01_01.png, id=132, 670.505pt x 397.485pt>
+ [1
+
+ <./fig/fig01_01.png>]
+<fig/tab01_01.png, id=166, 670.505pt x 397.485pt>
 File: fig/tab01_01.png Graphic file (type png)
 <use fig/tab01_01.png>
-Package pdftex.def Info: fig/tab01_01.png  used on input line 98.
+Package pdftex.def Info: fig/tab01_01.png  used on input line 103.
 (pdftex.def)             Requested size: 201.15305pt x 119.24641pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fig/tab01_02.png, id=133, 670.505pt x 346.29375pt>
+<fig/tab01_02.png, id=167, 670.505pt x 346.29375pt>
 File: fig/tab01_02.png Graphic file (type png)
 <use fig/tab01_02.png>
-Package pdftex.def Info: fig/tab01_02.png  used on input line 106.
+Package pdftex.def Info: fig/tab01_02.png  used on input line 111.
 (pdftex.def)             Requested size: 268.19725pt x 138.51503pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fig/tab01_03.png, id=134, 364.36125pt x 481.8pt>
+<fig/tab01_03.png, id=168, 364.36125pt x 481.8pt>
 File: fig/tab01_03.png Graphic file (type png)
 <use fig/tab01_03.png>
-Package pdftex.def Info: fig/tab01_03.png  used on input line 114.
+Package pdftex.def Info: fig/tab01_03.png  used on input line 119.
 (pdftex.def)             Requested size: 145.74191pt x 192.71658pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/fig01_04.png, id=135, 704.6325pt x 475.7775pt>
+<fig/fig01_04.png, id=169, 704.6325pt x 475.7775pt>
 File: fig/fig01_04.png Graphic file (type png)
 <use fig/fig01_04.png>
-Package pdftex.def Info: fig/fig01_04.png  used on input line 126.
+Package pdftex.def Info: fig/fig01_04.png  used on input line 131.
 (pdftex.def)             Requested size: 458.0057pt x 309.2517pt.
-[1
 
- <./fig/fig01_01.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [2 <./fig/tab01_01.png> <./fig/tab01_02.png> <./fig/tab01_03.png>] [3 <./fig/f
-ig01_04.png>]
-<fig/fig01_04a.png, id=174, 758.835pt x 228.855pt>
+[2 <./fig/tab01_01.png> <./fig/tab01_02.png>]
+<fig/fig01_04a.png, id=183, 758.835pt x 228.855pt>
 File: fig/fig01_04a.png Graphic file (type png)
 <use fig/fig01_04a.png>
-Package pdftex.def Info: fig/fig01_04a.png  used on input line 158.
+Package pdftex.def Info: fig/fig01_04a.png  used on input line 163.
 (pdftex.def)             Requested size: 303.52863pt x 91.54037pt.
-<fig/fig01_05.png, id=175, 358.33875pt x 115.43124pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig/fig01_05.png, id=184, 358.33875pt x 115.43124pt>
 File: fig/fig01_05.png Graphic file (type png)
 <use fig/fig01_05.png>
-Package pdftex.def Info: fig/fig01_05.png  used on input line 175.
+Package pdftex.def Info: fig/fig01_05.png  used on input line 180.
 (pdftex.def)             Requested size: 143.33296pt x 46.17168pt.
- [4 <./fig/fig01_04a.png> <./fig/fig01_05.png>]
-<fig/fig01_07a.png, id=190, 782.925pt x 458.71375pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./fig/tab01_03.png>] [4 <./fig/fig01_04.png> <./fig/fig01_04a.png>]
+<fig/fig01_07a.png, id=210, 782.925pt x 458.71375pt>
 File: fig/fig01_07a.png Graphic file (type png)
 <use fig/fig01_07a.png>
-Package pdftex.def Info: fig/fig01_07a.png  used on input line 223.
+Package pdftex.def Info: fig/fig01_07a.png  used on input line 228.
 (pdftex.def)             Requested size: 469.75862pt x 275.23038pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<fig/fig01_07b.png, id=191, 782.925pt x 547.04375pt>
+<fig/fig01_07b.png, id=211, 782.925pt x 547.04375pt>
 File: fig/fig01_07b.png Graphic file (type png)
 <use fig/fig01_07b.png>
-Package pdftex.def Info: fig/fig01_07b.png  used on input line 232.
+Package pdftex.def Info: fig/fig01_07b.png  used on input line 237.
 (pdftex.def)             Requested size: 469.75862pt x 328.22878pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6 <./fig/fig01_07a.png>] [7 <./fig/fig01_07b.png>] [8
+[5 <./fig/fig01_05.png>] [6 <./fig/fig01_07a.png>] [7 <./fig/fig01_07b.png>]
+[8
 
 ]
-<fig/fig02_01.png, id=223, 773.89125pt x 475.7775pt>
+<fig/fig02_01.png, id=244, 773.89125pt x 475.7775pt>
 File: fig/fig02_01.png Graphic file (type png)
 <use fig/fig02_01.png>
-Package pdftex.def Info: fig/fig02_01.png  used on input line 247.
+Package pdftex.def Info: fig/fig02_01.png  used on input line 258.
 (pdftex.def)             Requested size: 464.33833pt x 285.46869pt.
- [9 <./fig/fig02_01.png>]
-<fig/fig02_02.png, id=230, 773.89125pt x 352.31625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]
+<fig/fig02_02.png, id=251, 773.89125pt x 352.31625pt>
 File: fig/fig02_02.png Graphic file (type png)
 <use fig/fig02_02.png>
-Package pdftex.def Info: fig/fig02_02.png  used on input line 265.
+Package pdftex.def Info: fig/fig02_02.png  used on input line 280.
 (pdftex.def)             Requested size: 464.33833pt x 211.39137pt.
-<fig/fig_09_19.jpg, id=232, 438.9198pt x 264.5082pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig/fig_09_19.jpg, id=253, 438.9198pt x 264.5082pt>
 File: fig/fig_09_19.jpg Graphic file (type jpg)
 <use fig/fig_09_19.jpg>
-Package pdftex.def Info: fig/fig_09_19.jpg  used on input line 279.
+Package pdftex.def Info: fig/fig_09_19.jpg  used on input line 294.
 (pdftex.def)             Requested size: 219.45935pt x 132.25377pt.
- [10 <./fig/fig02_02.png>]
-<fig/fig_09_20.jpg, id=240, 636.87938pt x 276.28218pt>
+[10 <./fig/fig02_01.png>]
+<fig/fig_09_20.jpg, id=260, 636.87938pt x 276.28218pt>
 File: fig/fig_09_20.jpg Graphic file (type jpg)
 <use fig/fig_09_20.jpg>
-Package pdftex.def Info: fig/fig_09_20.jpg  used on input line 287.
+Package pdftex.def Info: fig/fig_09_20.jpg  used on input line 302.
 (pdftex.def)             Requested size: 318.4389pt x 138.14075pt.
-<fig/fig_10_20.jpg, id=241, 318.4698pt x 415.3116pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./fig/fig02_02.png> <./fig/fig_09_19.jpg>]
+<fig/transistorVoltage.png, id=272, 323.2075pt x 157.58875pt>
+File: fig/transistorVoltage.png Graphic file (type png)
+<use fig/transistorVoltage.png>
+Package pdftex.def Info: fig/transistorVoltage.png  used on input line 335.
+(pdftex.def)             Requested size: 323.20671pt x 157.58835pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./fig/fig_09_20.jpg>]
+<fig/fig02_12.png, id=283, 913.4125pt x 291.0875pt>
+File: fig/fig02_12.png Graphic file (type png)
+<use fig/fig02_12.png>
+Package pdftex.def Info: fig/fig02_12.png  used on input line 345.
+(pdftex.def)             Requested size: 456.70514pt x 145.54338pt.
+<fig/fig_10_20.jpg, id=284, 318.4698pt x 415.3116pt>
 File: fig/fig_10_20.jpg Graphic file (type jpg)
 <use fig/fig_10_20.jpg>
-Package pdftex.def Info: fig/fig_10_20.jpg  used on input line 306.
+Package pdftex.def Info: fig/fig_10_20.jpg  used on input line 367.
 (pdftex.def)             Requested size: 159.2345pt x 207.65529pt.
- [11 <./fig/fig_09_19.jpg> <./fig/fig_09_20.jpg>]
-<fig/fig_10_24.jpg, id=254, 637.4214pt x 276.5532pt>
+ [13 <./fig/transistorVoltage.png> <./fig/fig02_12.png>]
+<fig/fig_10_24.jpg, id=293, 637.4214pt x 276.5532pt>
 File: fig/fig_10_24.jpg Graphic file (type jpg)
 <use fig/fig_10_24.jpg>
-Package pdftex.def Info: fig/fig_10_24.jpg  used on input line 318.
+Package pdftex.def Info: fig/fig_10_24.jpg  used on input line 379.
 (pdftex.def)             Requested size: 318.70992pt x 138.27626pt.
-<fig/fig_10_21.jpg, id=255, 443.7378pt x 243.7908pt>
+<fig/fig_10_21.jpg, id=294, 443.7378pt x 243.7908pt>
 File: fig/fig_10_21.jpg Graphic file (type jpg)
 <use fig/fig_10_21.jpg>
-Package pdftex.def Info: fig/fig_10_21.jpg  used on input line 330.
+Package pdftex.def Info: fig/fig_10_21.jpg  used on input line 391.
 (pdftex.def)             Requested size: 221.86835pt x 121.8951pt.
 
-Underfull \vbox (badness 4543) has occurred while \output is active []
+Underfull \vbox (badness 1521) has occurred while \output is active []
 
- [12 <./fig/fig_10_20.jpg> <./fig/fig_10_24.jpg>]
-<fig/fig_10_25.jpg, id=264, 636.87938pt x 276.28218pt>
+ [14 <./fig/fig_10_20.jpg> <./fig/fig_10_24.jpg>]
+<fig/fig_10_25.jpg, id=303, 636.87938pt x 276.28218pt>
 File: fig/fig_10_25.jpg Graphic file (type jpg)
 <use fig/fig_10_25.jpg>
-Package pdftex.def Info: fig/fig_10_25.jpg  used on input line 342.
+Package pdftex.def Info: fig/fig_10_25.jpg  used on input line 403.
 (pdftex.def)             Requested size: 318.4389pt x 138.14075pt.
-<fig/fig_10_28.jpg, id=265, 637.4214pt x 276.5532pt>
+<fig/fig_10_28.jpg, id=304, 637.4214pt x 276.5532pt>
 File: fig/fig_10_28.jpg Graphic file (type jpg)
 <use fig/fig_10_28.jpg>
-Package pdftex.def Info: fig/fig_10_28.jpg  used on input line 352.
+Package pdftex.def Info: fig/fig_10_28.jpg  used on input line 413.
 (pdftex.def)             Requested size: 318.70992pt x 138.27626pt.
-<fig/fig_10_29.jpg, id=266, 636.87938pt x 276.28218pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./fig/fig_10_21.jpg> <./fig/fig_10_25.jpg>]
+<fig/fig_10_29.jpg, id=313, 636.87938pt x 276.28218pt>
 File: fig/fig_10_29.jpg Graphic file (type jpg)
 <use fig/fig_10_29.jpg>
-Package pdftex.def Info: fig/fig_10_29.jpg  used on input line 360.
+Package pdftex.def Info: fig/fig_10_29.jpg  used on input line 421.
 (pdftex.def)             Requested size: 318.4389pt x 138.14075pt.
- [13 <./fig/fig_10_21.jpg> <./fig/fig_10_25.jpg> <./fig/fig_10_28.jpg>]
-<fig/fig02_22.png, id=275, 773.89125pt x 474.77374pt>
+<fig/fig02_22.png, id=314, 773.89125pt x 474.77374pt>
 File: fig/fig02_22.png Graphic file (type png)
 <use fig/fig02_22.png>
-Package pdftex.def Info: fig/fig02_22.png  used on input line 370.
+Package pdftex.def Info: fig/fig02_22.png  used on input line 431.
 (pdftex.def)             Requested size: 386.94467pt x 237.38629pt.
- [14 <./fig/fig_10_29.jpg> <./fig/fig02_22.png>]
-<fig/fig_10_12.jpg, id=283, 321.45094pt x 263.48438pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./fig/fig_10_28.jpg> <./fig/fig_10_29.jpg>] [17 <./fig/fig02_22.png>] [18
+
+]
+<fig/fig_10_12.jpg, id=332, 321.45094pt x 263.48438pt>
 File: fig/fig_10_12.jpg Graphic file (type jpg)
 <use fig/fig_10_12.jpg>
-Package pdftex.def Info: fig/fig_10_12.jpg  used on input line 383.
+Package pdftex.def Info: fig/fig_10_12.jpg  used on input line 444.
 (pdftex.def)             Requested size: 160.72507pt x 131.74185pt.
-
-[15
-
- <./fig/fig_10_12.jpg>]
-<fig/fig_10_14.jpg, id=292, 408.02437pt x 267.24844pt>
+ [19 <./fig/fig_10_12.jpg>]
+<fig/fig_10_14.jpg, id=342, 408.02437pt x 267.24844pt>
 File: fig/fig_10_14.jpg Graphic file (type jpg)
 <use fig/fig_10_14.jpg>
-Package pdftex.def Info: fig/fig_10_14.jpg  used on input line 411.
+Package pdftex.def Info: fig/fig_10_14.jpg  used on input line 472.
 (pdftex.def)             Requested size: 204.01169pt x 133.62389pt.
-<fig/fig_10_16.jpg, id=293, 637.4214pt x 276.5532pt>
+<fig/fig_10_16.jpg, id=343, 637.4214pt x 276.5532pt>
 File: fig/fig_10_16.jpg Graphic file (type jpg)
 <use fig/fig_10_16.jpg>
-Package pdftex.def Info: fig/fig_10_16.jpg  used on input line 446.
+Package pdftex.def Info: fig/fig_10_16.jpg  used on input line 507.
 (pdftex.def)             Requested size: 318.70992pt x 138.27626pt.
- [16 <./fig/fig_10_14.jpg>]
-<fig/fig03_14.png, id=305, 773.89125pt x 257.96375pt>
+ [20 <./fig/fig_10_14.jpg>]
+<fig/fig03_14.png, id=355, 773.89125pt x 257.96375pt>
 File: fig/fig03_14.png Graphic file (type png)
 <use fig/fig03_14.png>
-Package pdftex.def Info: fig/fig03_14.png  used on input line 457.
+Package pdftex.def Info: fig/fig03_14.png  used on input line 523.
 (pdftex.def)             Requested size: 386.94467pt x 128.98155pt.
-<fig/fig03_19.png, id=306, 773.89125pt x 423.5825pt>
+<fig/fig03_19.png, id=356, 773.89125pt x 423.5825pt>
 File: fig/fig03_19.png Graphic file (type png)
 <use fig/fig03_19.png>
-Package pdftex.def Info: fig/fig03_19.png  used on input line 466.
+Package pdftex.def Info: fig/fig03_19.png  used on input line 537.
 (pdftex.def)             Requested size: 386.94467pt x 211.79073pt.
-<fig/fig03_17.png, id=307, 768.8725pt x 431.6125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <./fig/fig_10_16.jpg> <./fig/fig03_14.png>]
+<fig/fig03_17.png, id=364, 768.8725pt x 431.6125pt>
 File: fig/fig03_17.png Graphic file (type png)
 <use fig/fig03_17.png>
-Package pdftex.def Info: fig/fig03_17.png  used on input line 476.
+Package pdftex.def Info: fig/fig03_17.png  used on input line 552.
 (pdftex.def)             Requested size: 384.4353pt x 215.80571pt.
- [17 <./fig/fig_10_16.jpg> <./fig/fig03_14.png> <./fig/fig03_19.png>]
-<fig/fig03_24.png, id=318, 768.8725pt x 305.14pt>
+ [22 <./fig/fig03_19.png> <./fig/fig03_17.png>]
+<fig/fig03_24.png, id=375, 768.8725pt x 305.14pt>
 File: fig/fig03_24.png Graphic file (type png)
 <use fig/fig03_24.png>
-Package pdftex.def Info: fig/fig03_24.png  used on input line 507.
+Package pdftex.def Info: fig/fig03_24.png  used on input line 583.
 (pdftex.def)             Requested size: 384.4353pt x 152.56961pt.
- [18 <./fig/fig03_17.png>]
-<fig/fig03_25.png, id=330, 827.09pt x 593.21625pt>
+<fig/fig03_25.png, id=376, 827.09pt x 593.21625pt>
 File: fig/fig03_25.png Graphic file (type png)
 <use fig/fig03_25.png>
-Package pdftex.def Info: fig/fig03_25.png  used on input line 517.
+Package pdftex.def Info: fig/fig03_25.png  used on input line 593.
 (pdftex.def)             Requested size: 413.54398pt x 296.60739pt.
-<fig/fig03_26.png, id=331, 766.865pt x 352.31625pt>
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [23 <./fig/fig03_24.png>]
+<fig/fig03_26.png, id=387, 766.865pt x 352.31625pt>
 File: fig/fig03_26.png Graphic file (type png)
 <use fig/fig03_26.png>
-Package pdftex.def Info: fig/fig03_26.png  used on input line 527.
+Package pdftex.def Info: fig/fig03_26.png  used on input line 603.
 (pdftex.def)             Requested size: 460.12256pt x 211.39137pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19 <./fig/fig03_24.png> <./fig/fig03_25.png>]
-<fig/fig03_27.png, id=342, 766.865pt x 322.20375pt>
+<fig/fig03_27.png, id=388, 766.865pt x 322.20375pt>
 File: fig/fig03_27.png Graphic file (type png)
 <use fig/fig03_27.png>
-Package pdftex.def Info: fig/fig03_27.png  used on input line 535.
+Package pdftex.def Info: fig/fig03_27.png  used on input line 611.
 (pdftex.def)             Requested size: 460.12256pt x 193.32373pt.
-<fig/fig03_28.png, id=344, 828.09375pt x 447.6725pt>
+ [24 <./fig/fig03_25.png> <./fig/fig03_26.png>]
+<fig/fig03_28.png, id=400, 828.09375pt x 447.6725pt>
 File: fig/fig03_28.png Graphic file (type png)
 <use fig/fig03_28.png>
-Package pdftex.def Info: fig/fig03_28.png  used on input line 547.
+Package pdftex.def Info: fig/fig03_28.png  used on input line 623.
 (pdftex.def)             Requested size: 414.04587pt x 223.8357pt.
- [20 <./fig/fig03_26.png> <./fig/fig03_27.png>]
-<fig/fig03_29.png, id=356, 828.09375pt x 447.6725pt>
+ [25 <./fig/fig03_27.png> <./fig/fig03_28.png>]
+<fig/fig03_29.png, id=411, 828.09375pt x 447.6725pt>
 File: fig/fig03_29.png Graphic file (type png)
 <use fig/fig03_29.png>
-Package pdftex.def Info: fig/fig03_29.png  used on input line 563.
+Package pdftex.def Info: fig/fig03_29.png  used on input line 639.
+(pdftex.def)             Requested size: 414.04587pt x 223.8357pt.
+ [26 <./fig/fig03_29.png>]
+<fig/fig03_31.png, id=422, 828.09375pt x 447.6725pt>
+File: fig/fig03_31.png Graphic file (type png)
+<use fig/fig03_31.png>
+Package pdftex.def Info: fig/fig03_31.png  used on input line 697.
 (pdftex.def)             Requested size: 414.04587pt x 223.8357pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./fig/fig03_28.png>] [22 <./fig/fig03_29.png>]
-<fig/fig03_31.png, id=375, 828.09375pt x 447.6725pt>
-File: fig/fig03_31.png Graphic file (type png)
-<use fig/fig03_31.png>
-Package pdftex.def Info: fig/fig03_31.png  used on input line 616.
-(pdftex.def)             Requested size: 414.04587pt x 223.8357pt.
-<fig/fig03_32.png, id=376, 828.09375pt x 283.0575pt>
+ [27]
+<fig/fig03_32.png, id=432, 828.09375pt x 283.0575pt>
 File: fig/fig03_32.png Graphic file (type png)
 <use fig/fig03_32.png>
-Package pdftex.def Info: fig/fig03_32.png  used on input line 626.
+Package pdftex.def Info: fig/fig03_32.png  used on input line 707.
 (pdftex.def)             Requested size: 414.04587pt x 141.5284pt.
- [23 <./fig/fig03_31.png>]
-<fig/fig03_33.png, id=387, 828.09375pt x 283.0575pt>
+<fig/fig03_33.png, id=433, 828.09375pt x 283.0575pt>
 File: fig/fig03_33.png Graphic file (type png)
 <use fig/fig03_33.png>
-Package pdftex.def Info: fig/fig03_33.png  used on input line 636.
+Package pdftex.def Info: fig/fig03_33.png  used on input line 717.
 (pdftex.def)             Requested size: 414.04587pt x 141.5284pt.
-<fig/fig03_34.png, id=388, 828.09375pt x 320.19624pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./fig/fig03_31.png> <./fig/fig03_32.png>]
+<fig/fig03_34.png, id=442, 828.09375pt x 320.19624pt>
 File: fig/fig03_34.png Graphic file (type png)
 <use fig/fig03_34.png>
-Package pdftex.def Info: fig/fig03_34.png  used on input line 646.
+Package pdftex.def Info: fig/fig03_34.png  used on input line 727.
 (pdftex.def)             Requested size: 414.04587pt x 160.09772pt.
- [24 <./fig/fig03_32.png> <./fig/fig03_33.png> <./fig/fig03_34.png>] [25] [26
+ [29 <./fig/fig03_33.png> <./fig/fig03_34.png>] [30]
+<fig/fig04_03.png, id=466, 830.10126pt x 538.01pt>
+File: fig/fig04_03.png Graphic file (type png)
+<use fig/fig04_03.png>
+Package pdftex.def Info: fig/fig04_03.png  used on input line 787.
+(pdftex.def)             Requested size: 415.04962pt x 269.00433pt.
 
-] [27]
-[28
 
-] [29] [30] [31
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 793.
 
-] (./engr2910.aux)
 
-Package rerunfilecheck Warning: File `engr2910.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Overfull \hbox (37.47922pt too wide) in paragraph at lines 794--806
+[][] 
+ []
 
-Package rerunfilecheck Info: Checksums for `engr2910.out':
-(rerunfilecheck)             Before: D873A3A7689BA8FF43C7BC94B1025619;3290
-(rerunfilecheck)             After:  790DB6915BBB47D8460A6DCDC114488F;3457.
- ) 
+<fig/fig04_01.png, id=467, 805.0075pt x 704.6325pt>
+File: fig/fig04_01.png Graphic file (type png)
+<use fig/fig04_01.png>
+Package pdftex.def Info: fig/fig04_01.png  used on input line 810.
+(pdftex.def)             Requested size: 402.50278pt x 352.3154pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
+
+ <./fig/fig04_03.png>]
+<fig/fig04_02.png, id=474, 805.0075pt x 337.26pt>
+File: fig/fig04_02.png Graphic file (type png)
+<use fig/fig04_02.png>
+Package pdftex.def Info: fig/fig04_02.png  used on input line 818.
+(pdftex.def)             Requested size: 402.50278pt x 168.62958pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32 <./fig/fig04_01.png>] [33 <./fig/fig04_02.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 4013) has occurred while \output is active []
+
+ [35]
+[36])
+Runaway argument?
+{The Mesh-Current Method: Special Cases \par \subsection {Known Curre\ETC.
+! File ended while scanning use of \@xxtrplarg.
+<inserted text> 
+                \par 
+<*> engr2910.tex
+                
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> engr2910.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 33369 strings out of 478268
- 647712 string characters out of 5846346
- 982081 words of memory out of 5000000
- 50878 multiletter control sequences out of 15000+600000
+ 33491 strings out of 478268
+ 649928 string characters out of 5846346
+ 984455 words of memory out of 5000000
+ 50972 multiletter control sequences out of 15000+600000
  482116 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,99p,494b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on engr2910.pdf (33 pages, 1822700 bytes).
-PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 175 named destinations out of 1000 (max. 500000)
- 489 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 90i,14n,99p,494b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
