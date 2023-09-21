@@ -981,7 +981,7 @@ Do Example 4.7
 \end{tcolorbox}
 
 
-\section{The Mesh-Current Method: Special Cases
+\section{The Mesh-Current Method: Special Cases}
 
 \subsection{Known Current}
 \begin{tcolorbox}
@@ -989,9 +989,153 @@ Do Example 4.8
 \end{tcolorbox}
 
 \subsection{Supermesh}
+When a current source is shared between two meshes, we can combine the meshes to form a supermesh.
+
+\begin{tcolorbox}
+Do Example with Figure 4.28
+\end{tcolorbox}
+
+\section{Source Transformations}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_38.png}
+\caption{Source Transformations}
+\label{fig:fig04_38}
+\end{center}
+\end{figure}
 
 
+Supposed we connect Resistor $R_L$ between Nodes A and B:
 
+From the voltage source figure,
+\begin{equation}
+i_L = \frac{v_s}{R + R_L}
+\end{equation}
+
+And, from the current source figure,
+\begin{equation}
+i_L = \frac{R}{R + R_L} i_s
+\end{equation}
+
+Which leads to
+\begin{equation}
+i_s = \frac{v_s}{R}
+\end{equation}
+
+\begin{tcolorbox}
+Do Example 4.12
+\end{tcolorbox}
+
+\section{Thevenin and Norton Equivalent Circuits}
+
+\subsection{Thevenin Equivalent Circuit}
+
+Any circuit that contains linear elements can be represented by a Thevenin Equivalent Circuit that is the series combination of a voltage source $V_{TH}$ and a resistor $R_{TH}$.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_46.png}
+\caption{Thevenin Equivalent Circuit}
+\label{fig:fig04_46}
+\end{center}
+\end{figure}
+
+To calculate $V_{Th}$ we assume the load resistance is infinitely large (i.e., an open circuit) and calculate $V_{Th}$:
+
+\begin{equation}
+V_{Th} = V_{oc}
+\end{equation} 
+
+Next, we reduce the load resistance to zero (i.e., short circuit) and find $i_{sc}$.
+
+Given that 
+\begin{equation}
+i_{sc} = \frac{V_{Th}}{R_{Th}}
+\end{equation}
+We find that
+\begin{equation}
+R_{TH} = \frac{V_{Th}}{i_{sc}}
+\end{equation}
+
+\begin{tcolorbox}
+Do Example 4.14
+\end{tcolorbox}
+
+
+\subsection{Norton Equivalent Circuit}
+
+Similarly, we can create a Norton Equivalent Circuit
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_50.png}
+\caption{Norton Equivalent Circuit}
+\label{fig:fig04_50}
+\end{center}
+\end{figure}
+
+\begin{equation}
+I_N = i_{sc}
+\end{equation}
+
+and
+
+\begin{equation}
+R_N = \frac{v_{oc}}{i_{sc}} = R_{Th}
+\end{equation}
+
+\begin{tcolorbox}
+Do Example 4.15
+\end{tcolorbox}
+
+\section{Maximum Power Transfer}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.50]{fig/fig04_64.png}
+\caption{Max Power Transfer}
+\label{fig:fig04_64}
+\end{center}
+\end{figure}
+
+\begin{equation}
+p = i^2 R_L = (\frac{V_{Th}}{R_{Th} + R_L})^2 R_L
+\end{equation}
+
+Take the derivative
+
+\begin{equation}
+\frac{dp}{dR_L} = V^2_{Th} [\frac{(R_{Th} + R_L)^2 - 2 R_L (R_{Th} + R_L)}{(R_{Th} + R_L)^4}
+\end{equation}
+
+Find where the derivative is zero:
+\begin{equation}
+(R_{Th} + R_L)^2 = 2 R_L (R_{Th} + R_L)
+\end{equation}
+
+Solving for $R_L$ yields
+\begin{equation}
+R_L = R_{Th}
+\end{equation}
+
+And the maximum power transferred to a resistive load
+
+\begin{equation}
+p_{max} = \frac{V^2_{Th}}{4 R_L}
+\end{equation}
+
+\begin{tcolorbox}
+Do Example 4.21
+\end{tcolorbox}
+
+\section{Superposition}
+A linear system obeys the principle of superposition, which states that whenever a linear system is excited, or driven, b more than one independent source of energy, the total response is the sum of the individual responses. 
+
+
+\begin{tcolorbox}
+Do Example 4.22
+\end{tcolorbox}
 \appendix
 
 \chapter{Integration by Trig Substitution}
