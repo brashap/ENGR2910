@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  19 APR 2023 12:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.28)  5 DEC 2023 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -427,28 +427,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<final_1.png, id=1, 596.81032pt x 470.92064pt>
-File: final_1.png Graphic file (type png)
-<use final_1.png>
-Package pdftex.def Info: final_1.png  used on input line 57.
-(pdftex.def)             Requested size: 187.78531pt x 148.1755pt.
+Overfull \hbox (2.97754pt too wide) in paragraph at lines 47--48
+[]\OT1/cmr/m/n/12 The si-nu-soidal volt-age source in the ciruit be-low is de-v
+el-op-ing a volt-age equal to $50\OML/cmm/m/it/12 sin\OT1/cmr/m/n/12 (400\OML/c
+mm/m/it/12 t\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 V$\OT1/cmr/m/n/12 . 
+ []
+
+<fig09_45.jpg, id=1, 890.32625pt x 268.00125pt>
+File: fig09_45.jpg Graphic file (type jpg)
+<use fig09_45.jpg>
+Package pdftex.def Info: fig09_45.jpg  used on input line 51.
+(pdftex.def)             Requested size: 375.57779pt x 113.05457pt.
 <cnm.png, id=3, 285.065pt x 131.49126pt>
 File: cnm.png Graphic file (type png)
 <use cnm.png>
 Package pdftex.def Info: cnm.png  used on input line 60.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
-
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 37.68423pt, for example:
@@ -456,17 +461,17 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./final
-_1.png> <./cnm.png>]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig09
+_45.jpg> <./cnm.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
-<final_2.png, id=21, 649.16211pt x 376.56474pt>
-File: final_2.png Graphic file (type png)
-<use final_2.png>
-Package pdftex.def Info: final_2.png  used on input line 69.
-(pdftex.def)             Requested size: 187.78531pt x 108.92517pt.
+<fig08_39.jpg, id=15, 717.68124pt x 297.11pt>
+File: fig08_39.jpg Graphic file (type jpg)
+<use fig08_39.jpg>
+Package pdftex.def Info: fig08_39.jpg  used on input line 69.
+(pdftex.def)             Requested size: 375.57779pt x 155.48639pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
 Package pdftex.def Info: cnm.png  used on input line 72.
@@ -476,16 +481,16 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[2 <./final_2.png>]
+[2 <./fig08_39.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
-<final_3.png, id=27, 621.88638pt x 471.27328pt>
-File: final_3.png Graphic file (type png)
-<use final_3.png>
-Package pdftex.def Info: final_3.png  used on input line 81.
-(pdftex.def)             Requested size: 230.04309pt x 174.32524pt.
+<fig09_56.jpg, id=21, 792.9625pt x 481.8pt>
+File: fig09_56.jpg Graphic file (type jpg)
+<use fig09_56.jpg>
+Package pdftex.def Info: fig09_56.jpg  used on input line 81.
+(pdftex.def)             Requested size: 328.62788pt x 199.67125pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
 Package pdftex.def Info: cnm.png  used on input line 84.
@@ -495,38 +500,38 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[3 <./final_3.png>]
+[3 <./fig09_56.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
-<final_4.png, id=33, 477.44826pt x 471.3869pt>
-File: final_4.png Graphic file (type png)
-<use final_4.png>
-Package pdftex.def Info: final_4.png  used on input line 99.
-(pdftex.def)             Requested size: 187.78531pt x 185.40097pt.
+<fig09_25.jpg, id=30, 879.285pt x 473.77pt>
+File: fig09_25.jpg Graphic file (type jpg)
+<use fig09_25.jpg>
+Package pdftex.def Info: fig09_25.jpg  used on input line 94.
+(pdftex.def)             Requested size: 375.57779pt x 202.36528pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 102.
+Package pdftex.def Info: cnm.png  used on input line 97.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[4 <./final_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+[4 <./fig09_25.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<final_5.png, id=39, 643.51721pt x 468.81235pt>
+<final_5.png, id=36, 643.51721pt x 468.81235pt>
 File: final_5.png Graphic file (type png)
 <use final_5.png>
-Package pdftex.def Info: final_5.png  used on input line 110.
+Package pdftex.def Info: final_5.png  used on input line 108.
 (pdftex.def)             Requested size: 230.04309pt x 167.58482pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 119.
+Package pdftex.def Info: cnm.png  used on input line 118.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -534,48 +539,59 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
 [5 <./final_5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<final_6.png, id=45, 649.16211pt x 232.02473pt>
-File: final_6.png Graphic file (type png)
-<use final_6.png>
-Package pdftex.def Info: final_6.png  used on input line 128.
-(pdftex.def)             Requested size: 338.0193pt x 120.81287pt.
+<fig08_30.jpg, id=43, 890.32625pt x 296.10625pt>
+File: fig08_30.jpg Graphic file (type jpg)
+<use fig08_30.jpg>
+Package pdftex.def Info: fig08_30.jpg  used on input line 127.
+(pdftex.def)             Requested size: 338.0193pt x 112.41762pt.
 File: cnm.png Graphic file (type png)
 <use cnm.png>
-Package pdftex.def Info: cnm.png  used on input line 131.
+Package pdftex.def Info: cnm.png  used on input line 135.
 (pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 37.68423pt, for example:
 (fancyhdr)                \setlength{\footskip}{37.68423pt}.
 
-[6 <./final_6.png>] (./engr2910_final.aux) ) 
+[6 <./fig08_30.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+File: cnm.png Graphic file (type png)
+<use cnm.png>
+Package pdftex.def Info: cnm.png  used on input line 142.
+(pdftex.def)             Requested size: 72.26999pt x 33.3342pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 37.68423pt, for example:
+(fancyhdr)                \setlength{\footskip}{37.68423pt}.
+
+[7] (./engr2910_final.aux) ) 
 Here is how much of TeX's memory you used:
- 6647 strings out of 478268
- 106771 string characters out of 5846346
- 402164 words of memory out of 5000000
- 24730 multiletter control sequences out of 15000+600000
- 477615 words of font info for 58 fonts, out of 8000000 for 9000
+ 6644 strings out of 478268
+ 106751 string characters out of 5846346
+ 403164 words of memory out of 5000000
+ 24727 multiletter control sequences out of 15000+600000
+ 477278 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,14n,67p,289b,384s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist
-/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb>
-Output written on engr2910_final.pdf (6 pages, 243843 bytes).
+</usr/local/texlive/2022/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on engr2910_final.pdf (7 pages, 305295 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

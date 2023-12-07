@@ -36,7 +36,7 @@
 \hfil
 {\large\bf {ENGR 2910-101: Circuit Analysis}}
 \hfill Instructor: Brian Rashap\\
-Final \hfill Due: 12/08/23\\
+Final \hfill Due: 04/19/23\\
 \hrulefill\\
 \end{center}
 
@@ -44,18 +44,18 @@ Final \hfill Due: 12/08/23\\
 {\bf Question 1} [15] 
 \newline
 
-The sinusoidal voltage source in the ciruit below is developing a voltage equal to $50 sin(400t) V$.
+Use source transformation to find the Thevenin equivalent with respect to terminals A and B for the circuit below, if:
+\begin{itemize}
+\item $V_g = 240 \angle 0^{\circ}$
+\item $L_1 = j60 \Omega$
+\item $C_1 = -j48 \Omega$
+\item $R_1 = 36 \Omega$
+\end{itemize}
 
 \begin{figure}[h!]
 \centering 
-\includegraphics[clip,width=0.80\textwidth]{fig09_45.jpg}
+\includegraphics[clip,width=0.40\textwidth]{final_1.png}
 \end{figure}
-
-\begin{enumerate}[(a)]
-\item Find the Thevenin voltage with respect to terminals a,b. Express in both complex ($a + jb$) and Phasor form.
-\item Find the Thevenin impedance with respect to terminals a,b (in complex form).
-\item Draw the Thevenin equivalent circuit using a voltage source, resistor, capacitor and/or inductor. 
-\end{enumerate}
 
 \newpage
 
@@ -66,7 +66,7 @@ Find the value of R that makes the below circuit Critically Damped.
 
 \begin{figure}[h!]
 \centering 
-\includegraphics[clip,width=0.80\textwidth]{fig08_39.jpg}
+\includegraphics[clip,width=0.40\textwidth]{final_2.png}
 \end{figure}
 
 \newpage
@@ -78,7 +78,7 @@ Use the Node-Voltage method to find the matrix representation of $V_1$ and $V_2$
 
 \begin{figure}[h!]
 \centering 
-\includegraphics[clip,width=0.7\textwidth]{fig09_56.jpg}
+\includegraphics[clip,width=0.49\textwidth]{final_3.png}
 \end{figure}
 
 \newpage
@@ -86,18 +86,20 @@ Use the Node-Voltage method to find the matrix representation of $V_1$ and $V_2$
 {\bf Question 4} [15]
 \newline
 
-Find $Z_{eq}$ ($Z_{ab}$) for the circuit below.
-
+Find $Z_{eq}$ for the circuit below if
+\begin{itemize}
+\item $L_1 = j4 \Omega$
+\item $L_2 = j20 \Omega$
+\item $C_1 = -j8 \Omega$
+\item $C_2 = -j20 \Omega$
+\end{itemize}
 
 \begin{figure}[h!]
 \centering 
-\includegraphics[clip,width=0.80\textwidth]{fig09_25.jpg}
+\includegraphics[clip,width=0.40\textwidth]{final_4.png}
 \end{figure}
 
 \newpage
-
-
-
 
 
 {\bf Question 5} [20]
@@ -109,10 +111,9 @@ Find $Z_{eq}$ ($Z_{ab}$) for the circuit below.
 \end{figure}
 
 \begin{enumerate}[(a)]
-\item What is the voltage at the inverting input ($v_n$) in terms of $v_1$ and $v_2$.
-\item Using Kirchhoff's Current Law, what is the equation for currents at the inverting input node?
-\item Using KCL Equation from (b), derive the equation for $v_0$ as a function of $v_1$ and $v_2$. What is the gain of this op amp circuit?
-\item If $v_1 = 1 V$ and $v_2 = 3 * \cos{(\frac{\pi}{2}t)}$, draw a graph of $v_o$ vs time. Show at least two periods of the output. 
+\item What are the three Ideal Op Amp assumptions and their implications to voltages and currents in the circuit?
+\item For the Op Amp Circuit above, use Kirchhoff's Laws to derive the gain.
+\item If $v_1 = 1 V$ and $v_2 = 3 * \cos{(\frac{\pi}{2}t)}$, draw a graph of $v_o$. Show at least two periods of the output. 
 \end{enumerate}
 
 \newpage
@@ -120,23 +121,11 @@ Find $Z_{eq}$ ($Z_{ab}$) for the circuit below.
 {\bf Question 6} [20]
 \newline
 
-Assume there is no energy stored in the circuit below when the swithc is closed at $t = 0$.
+The two switches in the below circuit are synchronized. When the Switch 1 opens, Switch 2 closes, and vice versa. Switch 1 has been open for a long time before closing at $t=0$. Find $i_L(t)$ for $t \geq 0$. 
 
 \begin{figure}[h!]
 \centering 
-\includegraphics[clip,width=0.72\textwidth]{fig08_30.jpg}
+\includegraphics[clip,width=0.72\textwidth]{final_6.png}
 \end{figure}
-
-\begin{enumerate}[(a)]
-\item Using the Source Transformation, redraw the circuit as a parallel RLC circuit.
-\item Find $i_0(t)$ for $t \geq 0$. 
-\end{enumerate}
-
-\newpage 
-
-{\bf Extra Credit}
-\newline
-
-Who was Max Salazar (either a factual or humorous answer will be accepted)?
 
 \end{document}
